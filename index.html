@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/my_css.css">
+</head>
+
+<body>
+    <!-- video block  -->
+    <div class="videoBlock">
+
+        <h1 class="projects1">Flutter Projects</h1>
+
+        <div class="btnRow">
+            <div class="  "><button type="submit" onclick="showContent(1)" class="unselected active" id="btn1">MyBhoomi
+                </button></div>
+            <div class=" "> <button type="submit" onclick="showContent(2)" class="unselected" id="btn2">Mylab Cares
+                </button></div>
+            <div class=" "> <button type="submit" onclick="showContent(3)" class="unselected" id="btn3">Pathscope
+                </button></div>
+            <div class=" "> <button type="submit" onclick="showContent(4)" class="unselected" id="btn4">Alemeno
+                </button></div>
+            <div class=""> <button type="submit" onclick="showContent(5)" class="unselected" id="btn5">EMI Reminder
+                </button></div>
+
+
+
+        </div>
+        <!-- ALL btn are here  -->
+        <!-- ------------btn 1 content  -->
+        <div class="row justify-content-center content activeContent" id="content1">
+            <!-- //video play block  -->
+            <div class="col-md-6">
+                <div class="card videoPlayBox content-1-img">
+                    <div class="playIconDiv"><img src="assets/images/play-circle.png" class="fluid-img playIcon" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="VideoData">
+                    <div>
+                        <p class="text-start videoTitle">MyBhoomi</p>
+                    </div>
+                    <div>
+                        <p class="text-start videoDes">
+                            Introducing MyBhumi: Your Comprehensive Soil Health Companion . MyBhumi is your gateway to a
+                            new era of smart soil management. Designed to empower farmers with cutting-edge technology,
+                            MyBhumi offers a range of innovative features to enhance your farming practices.
+
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.khet.soil_testing_app" target="_blank"
+                        class="download_btn">
+                        Download Now
+                    </a>
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ------------- btn2 content -->
+        <div class="row justify-content-center content " id="content2">
+            <!-- //video play block  -->
+            <div class="col-md-6">
+                <div class="card videoPlayBox content-2-img">
+                    <div class="playIconDiv"><img src="assets/images/play-circle.png" class="fluid-img playIcon" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="VideoData">
+                    <div>
+                        <p class="text-start videoTitle">Mylab Cares</p>
+                    </div>
+                    <div>
+                        <p class="text-start videoDes">
+                            MyLab Cares is a comprehensive diagnostics app designed for patients, doctors, sales agents,
+                            and distributors in the healthcare industry. With MyLab Cares, patients can perform
+                            automated tests from the comfort of their own homes, while doctors can easily order
+                            diagnostics kits and manage their patients' health.
+
+
+
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.mylab.cares" target="_blank"
+                        class="download_btn">
+                        Download Now
+                    </a>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- -------------btn3 content  -->
+        <div class="row justify-content-center content " id="content3">
+            <!-- //video play block  -->
+            <div class="col-md-6">
+                <div class="card videoPlayBox content-3-img">
+                    <div class="playIconDiv">
+                        <img src="assets/images/play-circle.png" class="fluid-img playIcon" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="VideoData">
+                    <div>
+                        <p class="text-start videoTitle">Pathscope</p>
+                    </div>
+                    <div>
+                        <p class="text-start videoDes">
+                            Our urine test app makes it easy to monitor your health from home. Get instant updates on
+                            your well-being in just 2 mins. Simply test your urine and get personalized health insights.
+                            Our app is fast, easy, and convenient. Stay on top of your health with regular testing and
+                            insights
+
+
+
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.mylab.health_snap" target="_blank"
+                        class="download_btn">
+                        Download Now
+                    </a>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- -------------btn5 content  -->
+        <div class="row justify-content-center content " id="content4">
+            <!-- //video play block  -->
+            <div class="col-md-6">
+                <div class="card videoPlayBox content-4-img">
+                    <div class="playIconDiv"><img src="assets/images/play-circle.png" class="fluid-img playIcon" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="VideoData">
+                    <div>
+                        <p class="text-start videoTitle">Alemeno</p>
+                    </div>
+                    <div>
+                        <p class="text-start videoDes">
+                            Parents, do you struggle with your little ones during mealtime? Not anymore! With Alemeno,
+                            your little ones will be super-excited to eat the meals you prepare.
+
+
+                            Alemeno is a fun gamification app that transforms you into healthy eaters.
+
+
+
+                        </p>
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <a href="https://apps.apple.com/ng/app/alemeno/id1601278574" target="_blank" class="download_btn">
+                        Download Now
+                    </a>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- -------------btn5 content  -->
+        <div class="row justify-content-center content " id="content5">
+            <!-- //video play block  -->
+            <div class="col-md-6">
+                <div class="card videoPlayBox content-5-img">
+                    <div class="playIconDiv"><img src="assets/images/play-circle.png" class="fluid-img playIcon" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="VideoData">
+                    <div>
+                        <p class="text-start videoTitle">EMI Reminder</p>
+                    </div>
+                    <div>
+                        <p class="text-start videoDes">
+                            The EMI Tracker app simplifies EMI payment management for retailers and lenders. It
+                            streamlines the tracking and monitoring of Equated Monthly Installments, making it the
+                            ultimate tool for efficient EMI management. Ideal for retailers offering products on EMI and
+                            financial institutions providing loans.
+
+
+
+
+                        </p>
+                    </div>
+                    <br>
+                    <br>
+
+                    <a href="https://play.google.com/store/apps/details?id=com.emi_reminder.emi_reminder_app0"
+                        target="_blank" class="download_btn">
+                        Download Now
+                    </a>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+    <script>
+        function showContent(contentNum) {
+            // hide all content divs
+            var contentDivs = document.querySelectorAll('.content');
+            contentDivs.forEach(function (contentDiv) {
+                contentDiv.classList.remove('activeContent');
+            });
+
+            // show selected content div
+            var selectedContent = document.getElementById('content' + contentNum);
+            selectedContent.classList.add('activeContent');
+
+            // remove active class from all buttons
+            var btns = document.querySelectorAll('.unselected');
+            btns.forEach(function (btn) {
+                btn.classList.remove('active');
+            });
+
+            var selectedBtn = document.querySelector('#btn' + contentNum);
+            selectedBtn.classList.add('active');
+        }
+    </script>
+
+
+
+</body>
+
+</html>
